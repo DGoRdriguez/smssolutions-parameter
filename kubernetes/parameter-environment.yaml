@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: parameter-env-variables
+data:  
+  HOST_DB: "35.222.35.217"
+  PORT_DB: "3306"
+  DATABASE: users
+  USERDB: root
+  PASS: "1016034941"
